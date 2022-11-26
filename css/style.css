@@ -1,0 +1,150 @@
+
+* {
+box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;
+}
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    font-size: 2.7em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.25em;
+    
+}
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkorange;
+    padding: 15px  5px;
+    background-color: rgb(255, 244, 96);
+}
+button:hover {
+    color:rgb(198, 99, 28)
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+header {
+    background-color: rgb(241, 162, 27) ;
+}
+
+header .logo {
+    margin: 0;  
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: rgb(68, 58, 13);
+    font-size: 1.8em;
+
+}
+header .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px ;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 58, 13)
+}
+header a:hover{
+    color: rgb(198, 99, 28)
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url("/mobile_hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-shadow: -1px 0 rgb(249, 247, 247), 0 1px rgb(253, 249, 249),
+	  1px 0 rgb(249, 247, 247), 0 -1px rgb(249, 248, 248);
+    
+    
+}
+#breve-resumen {
+    background-color: rgb(58, 39, 15);
+    color: white;
+    text-align: center
+}
+#breve-resumen .container{
+   padding: 30px
+}
+
+
+footer p{
+    margin:0;
+    padding: 12px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+
+    }
+    
+  .container{
+        display : flex;
+        flex-direction : row;
+        justify-content: space-between;
+    }
+      
+    }
+
+
+div.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 3px 6px 0;
+    width: 400px;
+    display: block;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+div.galeria:hover{
+    border: 1px;
+    transform: rotate(-1deg);
+    
+
+}
+div.pie{
+    text-align: center;
+    text-shadow: -1px 0 rgb(249, 247, 247), 0 1px rgb(253, 249, 249),
+    1px 0 rgb(249, 247, 247), 0 -1px rgb(249, 248, 248);
+    padding: 10px;
+}
+
