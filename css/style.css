@@ -132,11 +132,19 @@ div.galeria {
     margin: 10px 20px;
     box-shadow: 0 3px 6px 0;
     width: 400px;
-    display: block;
+
+    display: grid;
+    
+   
+    
 }
 div.galeria img{
     width: 100%;
     height: auto;
+    display: flex;
+  
+  
+    
     
 
 }
@@ -144,6 +152,8 @@ div.galeria:hover{
     border: 1px;
     transform: rotate(-1deg);
     background-color: rgb(198, 99, 28) ;
+
+
 
 }
 div.pie{
@@ -153,11 +163,12 @@ div.pie{
     padding: 10px;
 }
 
-}
+
 section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(0, 0, 0, 0.5)), url("../img/mobile_hotel.jpg");
-    display: flex;
-   flex-direction: column;
+    display: grid;
+    margin: auto;
+   
 
 
 }
