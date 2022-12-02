@@ -8,6 +8,7 @@ body {
 }
 h1 {
     font-size: 3.5em;
+    
 }
 h2 {
     font-size: 2.7em;
@@ -136,12 +137,13 @@ div.galeria {
 div.galeria img{
     width: 100%;
     height: auto;
+    
 
 }
 div.galeria:hover{
     border: 1px;
     transform: rotate(-1deg);
-    
+    background-color: rgb(198, 99, 28) ;
 
 }
 div.pie{
@@ -149,5 +151,14 @@ div.pie{
     text-shadow: -1px 0 rgb(249, 247, 247), 0 1px rgb(253, 249, 249),
     1px 0 rgb(249, 247, 247), 0 -1px rgb(249, 248, 248);
     padding: 10px;
+}
+
+}
+section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(0, 0, 0, 0.5)), url("../img/mobile_hotel.jpg");
+    display: flex;
+   flex-direction: column;
+
+
 }
 
